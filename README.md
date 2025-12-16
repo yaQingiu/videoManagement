@@ -15,8 +15,8 @@ This is a single, elegant video management website. It contains following featur
 
 # usage
 Firstly,  execute the following command:
-git clone https://github.com/你的用户名/你的项目名.git
-cd 
+git clone https://github.com/yaQingiu/videoManagement.git
+cd videoManagement
 
 Secondly, install Nodejs from **https://nodejs.org**, and test the version by:
 node -v
