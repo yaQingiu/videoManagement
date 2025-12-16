@@ -1,0 +1,38 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vueuse/integrations": "^11.1.0",
+    "ali-oss": "^6.23.0",
+    "axios": "^1.7.7",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "element-plus": "^2.8.4",
+    "openai": "^6.10.0",
+    "pinia": "^3.0.4",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "universal-cookie": "^7.2.0",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5",
+    "vue-simple-uploader": "^0.7.6",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.9.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.1",
+    "vite-plugin-windicss": "^1.9.3",
+    "vue-tsc": "^3.1.5",
+    "windicss": "^3.5.6"
+  }
+}

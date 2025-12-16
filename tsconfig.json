@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020", "dom", "dom.iterable"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "preserve",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "outDir": "./dist", 
+    "rootDir": "./",
+    "noEmit": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "checkJs": true,
+    "paths": {
+      "~/*": ["src/*"]              // 配合你的 alias
+    },
+    "useDefineForClassFields": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src", "src/**/*.d.ts", "vite.config.js"]
+}
